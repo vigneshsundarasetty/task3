@@ -1,0 +1,130 @@
+ h1
+{
+    font-size: 50px;
+}
+h2
+{
+    color: aqua;
+    font-size: 30px;
+}
+h3
+{
+    color: darkgray;
+    font-size: 30px;
+}
+h4
+{
+    color: darkblue;
+    font-size: 30px;
+}
+h5,h6
+{
+    color: darkolivegreen;
+    font-size: 30px;
+}
+.customizedclass{
+    color: crimson;
+}
+#customizedid{
+    color: tomato;
+
+}
+span{
+    color: rgb(30, 223, 13);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pseudocustomized h2{
+    color: yellow;
+    background: violet;
+}
+h6
+{
+    color: sienna;
+    /*text-align: left;*/
+    /*text-align: right;*/
+    text-align:center  ;
+    /*text-align: justify;*/
+    /*text-align:end ;*/
+    font-size: 30px;
+}
+p
+{
+    color: navy;
+    font-size: 30px;
+    text-transform: capitalize;
+    /*text-transform: lowercase;*/
+    /*text-transform: uppercase;*/
+    line-height: 40px;
+    word-spacing: 10px;
+    letter-spacing: 0px;
+    font-style: oblique;
+    font-weight: bolder;
+    /*float: left;*/
+    /*float: right;*/
+    /*float: inline-start;*/
+    float: inline-end;
+}
+img
+{
+    opacity: 1;
+    font-size: 30px;
+
+}
+
+    li{
+        font-size: 30px;
+        /*background: linear-gradient(red,white,green);*/
+        background: linear-gradient(to right,red,white,green);
+        /*background: linear-gradient(to left,red,white,green);*/
+}
+button
+{
+    font-size: 20px;
+    border-radius:20px;
+    background: gold;
+    width: 10%;
+    height: 30px;
+    /*margin-top: 30px;*/
+    /*margin-bottom: 30px;*/
+   /* margin-right: 30px;*/
+   /*margin-left: 30px;*/
+   /*margin: 40px;*/
+   border-radius: 0px 0px 0px 0px;
+}
+table,th,tr,td
+{
+    border: 10px red;
+    border-collapse: collapse;
+    width: 50%;
+}
+table,th,tr,td
+{
+    border: 10px solid red;
+    border-collapse: collapse;
+    width: 50%;
+}
+a
+{
+    background: red;
+}
+a:hover
+{
+    background: green;
+}
+a:active
+{
+    background: black;
+}
+button
+{
+    background: red;
+}
+button:active
+{
+    background: yellow;
+}
+button:hover
+{
+    background: seagreen;
+}
